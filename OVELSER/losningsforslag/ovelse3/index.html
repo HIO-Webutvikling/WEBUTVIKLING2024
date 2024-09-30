@@ -3,16 +3,17 @@
 <head>
     <meta charset="UTF-8"> <!-- Definerer tegnsettet som UTF-8, som støtter de fleste språk -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Sikrer at siden er responsiv ved å tilpasse bredden til enhetens skjerm -->
+    <link rel="stylesheet" href="css/style.css">
     <title>Forside</title> <!-- Angir tittelen som vises i nettleserfanen -->
 </head>
 <body>
     <header>
         <h1>Løsningsforslag: Øvelse 3</h1> <!-- Hovedoverskriften på siden som introduserer innholdet -->
     </header>
-    <nav>
+    <nav id="main-menu">
         <!-- Navigasjonsmeny med lenker til andre sider -->
         <ul>
-            <li><a href="index.html">Hjem</a></li> <!-- Lenke til hjemmesiden -->
+            <li><a href="index.html" id="active">Hjem</a></li> <!-- Lenke til hjemmesiden -->
             <li><a href="validering.html">Valideringsoppgave</a></li> <!-- Lenke til valideringsoppgaven -->
             <li><a href="oppskrift.html">Lister: Oppskrift</a></li>
             <li><a href="mal.html">Mal</a></li> <!-- Lenke til en mal-side -->
@@ -64,7 +65,7 @@
 
         <section>
             <h4>Google resultater</h4> <!-- Seksjon som viser relevante Google-resultater -->
-            <a href="https://www.google.com/search?q=smantic+html&sca_esv=8d08fdb92d3dc4d4&sca_upv=1&source=hp&ei=inzyZo_KA6fEwPAPgdeR8AY&iflsig=AL9hbdgAAAAAZvKKmuDrynpYuEW9ivjfYYO4CC6NCqw7&ved=0ahUKEwiPt8bmmNuIAxUnIhAIHYFrBG4Q4dUDCA4&uact=5&oq=smantic+html&gs_lp=Egdnd3Mtd2l6IgxzbWFudGljIGh0bWwyBxAAGIAEGA0yBxAAGIAEGA0yBxAAGIAEGA0yBxAAGIAEGA0yBxAAGIAEGA0yBxAAGIAEGA0yBxAAGIAEGA0yBxAAGIAEGA0yBxAAGIAEGA1IviRQAFjLH3ADeACQAQCYAWWgAa0JqgEEMTQuMbgBA8gBAPgBAZgCEqACiArCAg4QABiABBixAxiDARiKBcICCBAAGIAEGLEDwgIREC4YgAQYsQMY0QMYgwEYxwHCAgUQABiABMICCxAuGIAEGNEDGMcBwgILEAAYgAQYsQMYgwHCAgoQABiABBhDGIoFwgIFEC4YgATCAhAQABiABBixAxhDGIMBGIoFwgIEEAAYA8ICCxAAGIAEGLEDGIoFwgILEC4YgAQYsQMYgwHCAgsQLhiABBjHARivAcICDhAuGIAEGLEDGNEDGMcBwgINEC4YgAQY0QMYxwEYCsICDRAuGIAEGLEDGIMBGArCAgcQLhiABBgKwgIKEC4YgAQYsQMYCsICBxAAGIAEGArCAhAQLhiABBixAxiDARjUAhgKwgIQEC4YgAQYsQMYgwEYigUYCsICDRAAGIAEGLEDGIMBGArCAgcQLhiABBgNmAMAkgcEMTYuMqAH45cB&sclient=gws-wiz">Se hva google fant om semantisk HTML5</a> <!-- Lenke til et Google-søk om semantisk HTML -->
+            <a class="black-btn" href="https://www.google.com/search?q=smantic+html&sca_esv=8d08fdb92d3dc4d4&sca_upv=1&source=hp&ei=inzyZo_KA6fEwPAPgdeR8AY&iflsig=AL9hbdgAAAAAZvKKmuDrynpYuEW9ivjfYYO4CC6NCqw7&ved=0ahUKEwiPt8bmmNuIAxUnIhAIHYFrBG4Q4dUDCA4&uact=5&oq=smantic+html&gs_lp=Egdnd3Mtd2l6IgxzbWFudGljIGh0bWwyBxAAGIAEGA0yBxAAGIAEGA0yBxAAGIAEGA0yBxAAGIAEGA0yBxAAGIAEGA0yBxAAGIAEGA0yBxAAGIAEGA0yBxAAGIAEGA0yBxAAGIAEGA1IviRQAFjLH3ADeACQAQCYAWWgAa0JqgEEMTQuMbgBA8gBAPgBAZgCEqACiArCAg4QABiABBixAxiDARiKBcICCBAAGIAEGLEDwgIREC4YgAQYsQMY0QMYgwEYxwHCAgUQABiABMICCxAuGIAEGNEDGMcBwgILEAAYgAQYsQMYgwHCAgoQABiABBhDGIoFwgIFEC4YgATCAhAQABiABBixAxhDGIMBGIoFwgIEEAAYA8ICCxAAGIAEGLEDGIoFwgILEC4YgAQYsQMYgwHCAgsQLhiABBjHARivAcICDhAuGIAEGLEDGNEDGMcBwgINEC4YgAQY0QMYxwEYCsICDRAuGIAEGLEDGIMBGArCAgcQLhiABBgKwgIKEC4YgAQYsQMYCsICBxAAGIAEGArCAhAQLhiABBixAxiDARjUAhgKwgIQEC4YgAQYsQMYgwEYigUYCsICDRAAGIAEGLEDGIMBGArCAgcQLhiABBgNmAMAkgcEMTYuMqAH45cB&sclient=gws-wiz">Se hva google fant om semantisk HTML5</a> <!-- Lenke til et Google-søk om semantisk HTML -->
         </section>
 
     </aside>
